@@ -3,12 +3,15 @@ import Sidebar from "./components/sidebar"
 import {SidebarData} from "./components/SidebarData" 
 import Footer from "./components/footer" 
 import Intro from "./components/intro/intro"
+import Topbar from "./components/topbar/topbar"
 
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
+      {/* <Topbar/> */}
       <Intro/>
+      <Sidebar/>
+      
 
       <Footer/>
     </div>
