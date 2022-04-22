@@ -1,16 +1,21 @@
 import './App.css';
+import Data from "./projects.json"
 import Sidebar from "./components/sidebar"
 import {SidebarData} from "./components/SidebarData" 
 import Footer from "./components/footer" 
 import Intro from "./components/intro/intro"
 import Topbar from "./components/topbar/topbar"
+import Projects from "./components/projects/projects"
+import Contact from "./components/contact/contact"
 
 function App() {
   return (
     <div className="App">
-      {/* <Topbar/> */}
+      <Topbar/>
       <Intro/>
-      <Sidebar/>
+      <Projects Data = {Data}/>
+      <Contact/>
+      {/* <Sidebar/> */}
       
 
       <Footer/>

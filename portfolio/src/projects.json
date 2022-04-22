@@ -1,0 +1,41 @@
+[{
+    "id":1,
+    "name": "Gateway",
+    "skills": "HTML | CSS",
+    "image": "./images/Gateway.png",
+    "mobile_image": "",
+    "date": "November 2021",
+    "replit": "https://replit.com/@SethMulia/TorontoCanada#index.html",
+    "link": "https://torontocanada--sethmulia.repl.co/index.html"
+},
+{
+    "id":2,
+    "name": "Hogar",
+    "skills": "HTML | CSS",
+    "image": "./images/HopeHacks.png",
+    "mobile_image": "",
+    "date": "December 2021",
+    "github": "https://github.com/samueljr3/code4Justice.git", 
+    "link": "https://samueljr3.github.io/code4Justice/index.html"
+},
+{
+    "id":3,
+    "name": "Juvi E-commerce",
+    "skills": "HTML | CSS | Javascript",
+    "image": "./images/juvi.png",
+    "mobile_image": "",
+    "date": "April 2021",
+    "github": "https://github.com/iMula/React_eCommerce.git", 
+    "link": "https://samueljr3.github.io/code4Justice/index.html"
+},
+{
+    "id":4,
+    "name": "Order Mob",
+    "skills": "HTML | CSS | Javascript | MySQL",
+    "image": "./images/OrderMob.png",
+    "mobile_image": "",
+    "date": "Feburary 2021",
+    "github": "https://github.com/iMula/Order-Mob.git", 
+    "link": "http://theordermob.com/index.html"
+}
+]
