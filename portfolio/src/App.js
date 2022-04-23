@@ -1,7 +1,5 @@
 import './App.css';
 import Data from "./projects.json"
-import Sidebar from "./components/sidebar"
-import {SidebarData} from "./components/SidebarData" 
 import Footer from "./components/footer" 
 import Intro from "./components/intro/intro"
 import Topbar from "./components/topbar/topbar"
@@ -15,7 +13,6 @@ function App() {
       <Intro/>
       <Projects Data = {Data}/>
       <Contact/>
-      {/* <Sidebar/> */}
       
 
       <Footer/>

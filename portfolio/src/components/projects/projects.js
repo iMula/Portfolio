@@ -1,5 +1,6 @@
 import React from 'react';
 import "./projects.css"
+import Data from "../../projects.json"
 
 
 export default function projects() {
@@ -11,13 +12,18 @@ export default function projects() {
         </div>
         <div
         className="container-portfolio-container">
-          <article className="portfolio_item">
-            <div className="portfolio_item-image">
-
-            </div>
-            <h3>This is the item title</h3>
-            
-          </article>
+          <div className="portfolio_item">
+            {Data.map(post => {
+              return(
+                <div key={post.id} className='card'>
+                  <h4>{ post.name }</h4>
+                  <img src={post.image} alt="" />
+                  <p>{post.skills}</p>
+                  <h3>{post.date}</h3>
+                </div>
+              )
+            })}
+          </div>
         </div>
        
       </section>
