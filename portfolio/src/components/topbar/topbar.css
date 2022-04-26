@@ -52,11 +52,11 @@
 }
 
 .navbar__links:hover {
-    color: orangered;
+    color: white;
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .navbar__container {
         display: flex;
         justify-content: space-between;
@@ -78,7 +78,7 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        background: black;
+        background: #3a7563;
     }
 
     .navbar__menu.active {

@@ -5,7 +5,7 @@
     "image": "./images/Gateway.png",
     "mobile_image": "",
     "date": "November 2021",
-    "replit": "https://replit.com/@SethMulia/TorontoCanada#index.html",
+    "github": "https://replit.com/@SethMulia/TorontoCanada#index.html",
     "link": "https://torontocanada--sethmulia.repl.co/index.html"
 },
 {
@@ -20,22 +20,23 @@
 },
 {
     "id":3,
+    "name": "Order Mob",
+    "skills": "HTML | CSS | Javascript | MySQL",
+    "image": "./images/OrderMob.png",
+    "mobile_image": "",
+    "date": "Feburary 2021",
+    "github": "https://github.com/drewwoods55/HOPEhacks", 
+    "link": "http://theordermob.com/index.html"
+},
+{
+
+    "id":4,
     "name": "Juvi E-commerce",
     "skills": "HTML | CSS | Javascript",
     "image": "./images/juvi.png",
     "mobile_image": "",
     "date": "April 2021",
     "github": "https://github.com/iMula/React_eCommerce.git", 
-    "link": ""
-},
-{
-    "id":4,
-    "name": "Order Mob",
-    "skills": "HTML | CSS | Javascript | MySQL",
-    "image": "./images/OrderMob.png",
-    "mobile_image": "",
-    "date": "Feburary 2021",
-    "github": "https://github.com/iMula/Order-Mob.git", 
-    "link": "http://theordermob.com/index.html"
+    "link": "https://juvibrand.netlify.app/home"
 }
 ]

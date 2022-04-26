@@ -20,7 +20,65 @@ p.heading_p{
     font-family: 'Raleway', sans-serif;
 }
 
-.card{
+/* .container-portfolio-container{
+    display: flex;
+    flex-direction: row;
+} */
+
+.port-name {
+    font-family: 'Raleway', sans-serif;
     text-align: center;
-    
+    padding-bottom: 10px;
+}
+
+.port-skill {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.port-date {
+     font-family: 'Raleway', sans-serif;
+     text-align: center;
+}
+
+.portfolio_item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    width: 80%;
+    margin: 0 auto; 
+    padding-right: 100px;
+    padding-top: 35px;
+}
+
+.card img {
+    height: 150px;
+}
+
+.btn{
+    align-items: center;
+    background-color: #3a7563;
+    text-transform: uppercase;
+    border-radius: 5px;
+    outline: 0;
+    padding: 5px 15px;
+    margin: 10px 0px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button :hover{
+    background-color: yellow;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+     transition: background-color 0.3s ease-in-out;
+    cursor: default;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   
 }

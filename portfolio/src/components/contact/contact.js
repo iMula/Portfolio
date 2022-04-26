@@ -4,8 +4,8 @@ import "./contact.css";
 
 export default function contact() {
   return (
-    <div>
-      <div className="container">
+    <div  id="contact_page">
+      <div className="container" >
         <form id="contact" action="" method="post">
           <h3>Contact Form</h3>
           <h4>I will reach out to you soon</h4>

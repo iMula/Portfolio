@@ -1,6 +1,5 @@
 import React from "react";
 import "./topbar.css";
-import Logo from '../../images/Port-logo.png'
 // import {Link} from "react-router-dom";
 
 
@@ -16,20 +15,20 @@ export default function topbar() {
            </div>
            <ul  className="navbar__menu">
                <li  className="navbar__item">
-               <a href="favor"  className="navbar__links">Home</a>
+               <a href="#intro"  className="navbar__links">Home</a>
                </li>
                <li  className="navbar__item">
-                <a href="favor"  className="navbar__links">Projects</a>
+                <a href="#projects"  className="navbar__links">Projects</a>
             </li>
             <li  className="navbar__item">
-                <a href="contact.html"  className="navbar__links">Contact</a>
+                <a href="#contact_page"  className="navbar__links">Contact</a>
             </li>
             <li  className="navbar__item">
-                <a href="contact.html"  className="navbar__links">Resume</a>
+                <a href="https://docs.google.com/document/d/1jMYYKn-151fNJeFk1h9ebrWDZR1ipTlalFNJZlu_JIU/edit?usp=sharing"  className="navbar__links">Resume</a>
             </li>
            </ul>
        </div>
    </nav>
     </>
-  );
+  ); 
 }

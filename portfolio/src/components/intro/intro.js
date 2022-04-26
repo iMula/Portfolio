@@ -1,10 +1,10 @@
 import React from 'react'
 import "./intro.css"
-import Me from '../../images/me.png'
+// import Me from "../../../public/images/Me.png";
 
 const intro = () => {
   return (
-    <div className='i'>
+    <div className='i'  id="intro">
         <div className='i-left'>
             <div className='i-left-wrapper'>
                 <h2 className='i-intro'>Hello World, My name is</h2>
@@ -26,7 +26,7 @@ const intro = () => {
         </div>
         <div className='i-right'>
             <div className='i-bg'></div>
-            <img src={Me} alt='' className='i-img' />
+            <img src="images/me.png" alt='headshot' className='i-img' />
         </div>
     </div>
   )
